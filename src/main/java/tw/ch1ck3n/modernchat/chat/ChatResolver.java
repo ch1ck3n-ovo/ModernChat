@@ -7,6 +7,7 @@ public final class ChatResolver {
     public TagResolver build() {
         return TagResolver.builder()
                 .resolver(StandardTags.color())
+                .resolver(StandardTags.shadowColor())
                 .resolver(StandardTags.decorations())
                 .resolver(StandardTags.gradient())
                 .resolver(StandardTags.rainbow())
