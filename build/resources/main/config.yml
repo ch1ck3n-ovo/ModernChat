@@ -1,0 +1,53 @@
+# +------------------------------------------------------+ #
+# |                   Chat Formatting                    | #
+# +------------------------------------------------------+ #
+chat-format:
+  global-prefix: "<dark_gray>[</dark_gray><gradient:#00c6ff:#0072ff>Global</gradient><dark_gray>] </dark_gray>"
+  local-prefix: "<dark_gray>[</dark_gray><gradient:#00c6ff:#0072ff>Local</gradient><dark_gray>] </dark_gray>"
+  separate-char: " <dark_gray>»</dark_gray> "
+
+# +------------------------------------------------------+ #
+# |                     Chat Filter                      | #
+# +------------------------------------------------------+ #
+chat-filter:
+  enable: true
+  replacement-tag: "*"
+  patterns:
+    - "fuck"
+    - "shit"
+    - "bitch"
+
+# +------------------------------------------------------+ #
+# |                    Chat Radius                       | #
+# +------------------------------------------------------+ #
+chat-radius:
+  enable: true
+  distance: 100
+
+# +------------------------------------------------------+ #
+# |                    Chat Item                         | #
+# +------------------------------------------------------+ #
+chat-item:
+  enable: true
+
+# +------------------------------------------------------+ #
+# |                    Chat Mention                      | #
+# +------------------------------------------------------+ #
+chat-mention:
+  enable: true
+
+# +------------------------------------------------------+ #
+# |                   Chat Cooldown                      | #
+# +------------------------------------------------------+ #
+chat-cooldown:
+  enable: true
+  time-ms: 1000
+  message: "<red>You speak too fast.</red>"
+
+# +------------------------------------------------------+ #
+# |                 Clickable Usernames                  | #
+# +------------------------------------------------------+ #
+clickable-name:
+  enable: true
+  hover-text: "<yellow>Click to message %player%</yellow>"
+  suggest-command: "/msg %player% "

@@ -1,0 +1,12 @@
+name: ModernChat
+version: '1.8'
+main: tw.ch1ck3n.modernchat.ModernChat
+api-version: '1.21.11'
+
+description: A modern chat formatting and filtering system based on pure Paper API.
+authors: [ ch1ck3n-ovo ]
+
+prefix: ModernChat
+softdepend:
+  - PlaceholderAPI
+
